@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Professional Form</title>
+<link rel="stylesheet" href="styles4.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Password Directory</h2>
+  <form action="http://localhost/connect.php"method="post">
+    <div class="form-group">
+      <label for="platform">Platform:</label>
+       <input type="text" id="platform" name="pf" placeholder="Your platform name.." required>
+    </div>
+    <div class="form-group">
+      <label for="email">Registered Email Id:</label>
+      <input type="email" id="email" name="em" placeholder="Your email.." required>
+    </div>
+    <div class="form-group">
+      <label for="mobile">Registered Mobile Number:</label>
+      <input type="tel" id="mobile" name="mob" placeholder="Your mobile number.." required>
+    </div>
+    <div class="form-group">
+      <label for="datepicker">Date:</label>
+      <input type="date" id="datepicker" name="dp" placeholder="Enter the date.." required>
+    </div>
+    <div class="form-group">
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="pas" placeholder="Your password.." required>
+    </div>
+    <div class="form-group">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="user" placeholder="Your username..">
+    </div>
+    <button type="submit" name="sb">Register</button>
+    <br>
+    <br>
+
+    <button type="reset">Reset</button>
+  </form>
+</div>
+
+</body>
+</html>
